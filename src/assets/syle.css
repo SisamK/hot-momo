@@ -1,0 +1,132 @@
+.home-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 30px; 
+  margin-left: 90px;
+  margin-top: 80px;
+  overflow-y: scroll;
+  perspective: 1px;
+  height: 100vh;
+  margin-bottom: 300px;
+}
+
+
+.recipe-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 30px; 
+  margin-left: 90px;
+  margin-top: 80px;
+  overflow-y: scroll;
+  perspective: 1px;
+  height: 100vh;
+  margin-bottom: 300px;
+}
+.title-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 80px;
+}
+
+.title-container h1 {
+  text-align: center; 
+}
+
+
+  
+  .gallery-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .images-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    overflow-y: auto;
+  }
+  
+  .image-card {
+    background-color: #fadddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .image-card img {
+    width: 100%;
+    height: fit-content;
+  }
+  
+  .small {
+    grid-column-end: span 1;
+    height: fit-content;
+  }
+  
+  .medium {
+    grid-column-end: span 2;
+  }
+  
+  .large {
+    grid-column-end: span 3;
+  }
+  .contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .contact-container .mb-4 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-container label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-container input[type="email"],
+  .contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contact-container textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .contact-container .btn-send {
+    width: 100%;
+  }
+  
+  .footer-container {
+    background-color: #ffafaf;
+    color: #0a0000;
+    padding: 20px;
+  }
+  
+  .footer-container a {
+    color: #080000;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: medium;
+  }
+  
+  
+  
